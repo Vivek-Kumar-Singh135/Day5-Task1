@@ -1,0 +1,142 @@
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 120px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 900px;
+    ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.division1 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.division2 {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.division3 {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.division4 {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.division5 {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.division6 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 45px;
+    height: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: large;
+}
+
+.division2>button {
+    width: 51px;
+}
+
+.division3>button {
+    width: 52px;
+}
+
+.division4>button {
+    width: 53px;
+}
+
+.division5>button {
+    width: 53px;
+}
+
+.back {
+    flex-grow: 0.5;
+}
+
+.tab {
+    flex-grow: 0.35;
+}
+
+.enter {
+    flex-grow: 0.25;
+}
+
+.shift {
+    flex-grow: 0.33;
+}
+
+.space {
+    flex-grow: 0.7;
+}
+
+#win {
+    flex-grow: 0.17;
+}
+
+#prtscr {
+    flex-grow: 0.2;
+}
+
+#insert {
+    flex-grow: 0.2;
+}
+
+#delete {
+    flex-grow: 0.2;
+}
+
+#caps {
+    flex-grow: 0.4;
+}
